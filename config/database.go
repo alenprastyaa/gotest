@@ -12,8 +12,8 @@ import (
 var DB *gorm.DB
 
 func ConnectDatabase() {
-	host := "localhost"
-	user := "postgres"
+	host := "203.194.113.253"
+	user := "root"
 	password := "alen"
 	dbname := "latihan"
 	port := "5432"
